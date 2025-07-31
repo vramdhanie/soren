@@ -1,9 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Soren - Digital Artist Portfolio
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-15.4.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-First, run the development server:
+A modern, responsive portfolio website showcasing the digital artwork of Soren Kiran. Built with Next.js, React, and Tailwind CSS for optimal performance and user experience.
 
+## ✨ Features
+
+- **Modern Design**: Clean, minimalist interface that puts focus on the artwork
+- **Responsive Layout**: Optimized for all devices and screen sizes
+- **Fast Performance**: Built with Next.js for optimal loading speeds
+- **TypeScript**: Type-safe development for better code quality
+- **Tailwind CSS**: Utility-first CSS framework for consistent styling
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.0 or later
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/soren.git
+cd soren
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
@@ -14,23 +53,68 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Available Scripts
 
-## Learn More
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-To learn more about Next.js, take a look at the following resources:
+### Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+soren/
+├── public/          # Static assets
+├── src/
+│   └── app/        # Next.js app directory
+│       ├── layout.tsx
+│       ├── page.tsx
+│       └── globals.css
+├── package.json
+└── README.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Customization
 
-## Deploy on Vercel
+### Adding New Artwork
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Place your artwork files in the `public/` directory
+2. Update the portfolio content in `src/app/page.tsx`
+3. Modify styles in `src/app/globals.css` or use Tailwind classes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Styling
+
+The project uses Tailwind CSS for styling. You can:
+- Modify the color scheme in `src/app/globals.css`
+- Add custom Tailwind classes in your components
+- Override default styles as needed
+
+## 📦 Technologies Used
+
+- **[Next.js 15](https://nextjs.org/)** - React framework for production
+- **[React 19](https://reactjs.org/)** - UI library
+- **[TypeScript](https://www.typescriptlang.org/)** - Type safety
+- **[Tailwind CSS 4](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Geist Font](https://vercel.com/font)** - Typography
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Contact
+
+- **Artist**: Soren Kiran
+- **Portfolio**: [soren.com](https://soren.com)
+- **Email**: contact@soren.com
+
+---
+
+Made with ❤️ by Soren Kiran
